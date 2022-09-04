@@ -7,6 +7,7 @@ documentation.](https://jikan.docs.apiary.io/#)
 Due to Jikan V3 deprecation, response url of change to V4 and because we only need a list of anime data, `/anime` were added to Jikan API can be made:
 -	`request url`: The url that was requested: `https://api.jikan.moe/v4/anime`
 -	`headers`: response header from Jikan [here.](https://jikan.docs.apiary.io/#introduction/information/caching)
+
 This method also valid if you need to get different response data e.g. genre, `/genre`.
 
 Example of data after being clean and sorted up into pandas dataframe. 
