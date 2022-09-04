@@ -1,6 +1,8 @@
+
 import requests
 import pandas as pd
 from random import choice
+
 #make API call
 url = "https://api.jikan.moe/v4/anime"
 r = requests.get(url).json()
